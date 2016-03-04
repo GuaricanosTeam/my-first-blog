@@ -1,0 +1,68 @@
+﻿{% load staticfiles %}
+<!DOCTYPE html>
+<html lang"es">
+<head>
+	<meta charset= "utf-8">
+	<meta name= "keywords" content= "pagina, html5, css3, maquetacion">
+	<meta name= "descripcion" content ="Pagina Web con estilos css3">
+	<title>Guaricanos Teams</title>
+	<link rel="stylesheet" href="Estilos/estilos.css"><!--conect con css-->
+	<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+<section id="contenedordepublicidad">
+	<header>
+		<h1><img src="1.png" alt="1.png"></h1>
+
+	</header>
+	<section id="banner">
+			<h1>GuaricanosTeam Page</h1>
+			<p>
+				Un equipo diseñado para elaborar desarrollo de aplicaciones web en general
+			</p>
+
+	</section>
+
+	<section id="noticias">
+		<h1>Noticias</h1>
+		<p>
+			Con el auspicio de los CTC de la vicepresidencia, estamos desarrollandonos cada dia mas
+		</p>
+	</section>
+
+	<section id="productos">
+		<h1>Productos de desarrollos</h1>
+		<p>Esta actual pagina es ejemplo de nuestra ardua labor!
+		</p>
+
+	</section>
+
+	<section id="marcas de patrocinios">
+		<h1>Patrocinios</h1>
+		CTC de la VicePresidencia!.
+
+	</section>
+
+	<footer>
+		<h1>Contáctanos</h1>
+		<p>Hardriverstudios@gmail.com
+				Estamosx ubicados en la calle no me acuerdo, esquina se me olvido # 0,
+				Tel: 809-555-cincoriente alterna
+		</p>
+		<!--{% for post in posts %}
+			<div>
+				<p>published: {{ post.published_date }}</p>
+				<h1><a href="">{{ post.title }}</a></h1>
+				<p>{{ post.text|linebreaks }}</p>
+				</div>
+		{% endfor %}-->
+
+	</footer>
+
+</section>
+
+</body>
+</html>
