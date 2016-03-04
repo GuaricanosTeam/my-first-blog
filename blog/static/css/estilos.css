@@ -9,7 +9,7 @@
     }
 body{
 	background: #076770;
-	background: url('../img/logo.jpg') rgb(255, 255, 255);
+	background: url('../Img/logo.jpg') rgb(255, 255, 255);
 	background-size: 850px 500px;
 	background-position: left top;
 	font: 700 0.75em/1.38 Helvetica;
@@ -18,7 +18,7 @@ body{
 }
 #logo{
 
-	background: url('../img/logovp.png') rgb(255, 255, 255);
+	background: url('../Img/logovp.png') rgb(255, 255, 255);
 	background-size: 250px 150px;
 	background-size: 250px 150px;
 	background-position: center;
@@ -30,7 +30,7 @@ body{
 	width: 750px;
 	margin-right: auto;
 	margin-left: auto;
-	background: url('../img/logo.png') rgb(255, 255, 255);
+	background: url('../Img/logo.png') rgb(255, 255, 255);
 }
 header{
 	background: #fff;
@@ -51,7 +51,7 @@ header{
 	background: #e0f1f5;
 	height: 200px;
 	width: 750px;
-	background: url('../img/noticias.jpg') rgb(255, 255, 255);
+	background: url('../Img/noticias.jpg') rgb(255, 255, 255);
 	background-size: 800px 6000px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -60,7 +60,7 @@ header{
 	background: #e0f1f5;
 	height: 200px;
 	width: 750px;
-	background: url('../img/logovp.png') rgb(255, 255, 255);
+	background: url('../Img/logovp.png') rgb(255, 255, 255);
 	background-size: top;
 	background-size: 250px 150px;
 	background-position: center;
@@ -70,7 +70,7 @@ header{
 	background: #07b2dd;
 	height: 200px;
 	width: 750px;
-	background: url('../img/desarrollo.jpg') rgb(255, 255, 255);
+	background: url('../Img/desarrollo.jpg') rgb(255, 255, 255);
 	background-size: 800px 6000px;
 	background-position: center;
 	background-repeat: no-repeat;
