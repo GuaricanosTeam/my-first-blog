@@ -9,39 +9,71 @@
     }
 body{
 	background: #076770;
-	background: url('../img/1.png') rgb(255, 255, 255);
-	background-size: cover;
+	background: url('../img/logo.jpg') rgb(255, 255, 255);
+	background-size: 850px 500px;
 	background-position: left top;
 	font: 700 0.75em/1.38 Helvetica;
 	color: rgb(9, 10, 10);
+
+}
+#logo{
+
+	background: url('../img/logovp.png') rgb(255, 255, 255);
+	background-size: 250px 150px;
+	background-size: 250px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #contenedordepublicidad{
+	
 	height: 1050px;
 	width: 750px;
 	margin-right: auto;
 	margin-left: auto;
+	background: url('../img/logo.png') rgb(255, 255, 255);
 }
 header{
 	background: #fff;
 	height: 100px;
 	width: 750px;
 }
+
 #banner{
-	background: #07b2dd;
+	background: #008616;
 	height: 250px;
 	width: 750px;
 	border: #000;
 	border-left: 10px;
+	background-size: 700px 500px;
+	font: #fff;
 }
 #noticias{
 	background: #e0f1f5;
 	height: 200px;
 	width: 750px;
+	background: url('../img/noticias.jpg') rgb(255, 255, 255);
+	background-size: 800px 6000px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#marcasdepatrocinios{
+	background: #e0f1f5;
+	height: 200px;
+	width: 750px;
+	background: url('../img/logovp.png') rgb(255, 255, 255);
+	background-size: top;
+	background-size: 250px 150px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #productos{
 	background: #07b2dd;
 	height: 200px;
 	width: 750px;
+	background: url('../img/desarrollo.jpg') rgb(255, 255, 255);
+	background-size: 800px 6000px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 footer{
 	background: #6f6f6f;

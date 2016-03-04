@@ -1,4 +1,4 @@
-	{
+{
 	border: 0;
 	margin: 0;
 	padding: 0;
@@ -9,6 +9,11 @@
     }
 body{
 	background: #076770;
+	background: url('../img/1.png') rgb(255, 255, 255);
+	background-size: cover;
+	background-position: left top;
+	font: 700 0.75em/1.38 Helvetica;
+	color: rgb(9, 10, 10);
 }
 #contenedordepublicidad{
 	height: 1050px;
@@ -42,4 +47,5 @@ footer{
 	background: #6f6f6f;
 	height: 100px;
 	width: 750px;
+	font-size: 12;
 }
