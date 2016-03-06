@@ -1,50 +1,46 @@
-	{
-	border: 0;
-	margin: 0;
-	padding: 0;
+h1 a {
+color: black;
+font-family: 'Lobster';
 }
-
-  h1 a {
-        color: #FCA205;
-    }
-body{
-	background: #076770;
-	background: url('../img/1.png') rgb(255, 255, 255);
-	background-size: cover;
-	background-position: left top;
-	font: 700 0.75em/1.38 Helvetica;
-	color: rgb(9, 10, 10);
+body {
+padding-left: 15px;
 }
-#contenedordepublicidad{
-	height: 1050px;
-	width: 750px;
-	margin-right: auto;
-	margin-left: auto;
+.page-header {
+background-color: black;
+margin-top: 0;
+padding: 20px 20px 20px 40px;
 }
-header{
-	background: #fff;
-	height: 100px;
-	width: 750px;
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+color: black;
+font-size: 36pt;
+text-decoration: none;
+font-family: Times;
 }
-#banner{
-	background: #07b2dd;
-	height: 250px;
-	width: 750px;
-	border: #000;
-	border-left: 10px;
+.content {
+margin-left: 40px;
 }
-#noticias{
-	background: #e0f1f5;
-	height: 200px;
-	width: 750px;
+h1, h2, h3, h4 {
+font-family: 'Lobster', cursive;
 }
-#productos{
-	background: #07b2dd;
-	height: 200px;
-	width: 750px;
+.date {
+float: right;
+color: #828282;
 }
-footer{
-	background: #6f6f6f;
-	height: 100px;
-	width: 750px;
+.save {
+float: right;
+}
+.post-form textarea, .post-form input {
+width: 100%;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+color: #ffffff;
+float: right;
+font-size: 26pt;
+margin-right: 20px;
+}
+.post {
+margin-bottom: 70px;
+}
+.post h1 a, .post h1 a:visited {
+color: #000000;
 }
